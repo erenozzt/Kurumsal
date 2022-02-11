@@ -63,7 +63,7 @@ namespace Kurumsal.Web
 
             app.UseRouting();  
 
-            app.UseAuthorization();
+            app.UseAuthorization(); 
 
             app.UseNodeModules(env.ContentRootPath);
             //app.UseIdentity(); IDENTITY CALISMAZSA BURAYA BAK VERSIONU KONTROL ET !
