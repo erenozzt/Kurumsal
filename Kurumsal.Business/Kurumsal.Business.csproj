@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kurumsal.Core\Kurumsal.Core.csproj" />
+    <ProjectReference Include="..\Kurumsal.DataAccess\Kurumsal.DataAccess.csproj" />
+    <ProjectReference Include="..\Kurumsal.Entities\Kurumsal.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
